@@ -1,0 +1,19 @@
+{
+ "country": "JO",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "الدستور",
+   "title": "دستور المملكة الأردنية الهاشمية (Constitution of the Hashemite Kingdom of Jordan)",
+   "url": "https://www.mfa.gov.jo/documents/230322%D8%A7%D9%84%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%202022.pdf",
+   "versions": [
+    {
+     "from": "2022-01-31",
+     "units": 131,
+     "source_url": "https://www.mfa.gov.jo/documents/230322%D8%A7%D9%84%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%202022.pdf",
+     "sha256": "3983de8f18c30143bf529131a3c0cfbb106651182b4dc5db9d482ac480501c6c"
+    }
+   ]
+  }
+ ]
+}

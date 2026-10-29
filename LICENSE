@@ -1,0 +1,11 @@
+The legal text is the Constitution of the Hashemite Kingdom of Jordan with its amendments to 31 January 2022, as
+published by the Ministry of Foreign Affairs of Jordan (https://www.mfa.gov.jo), retrieved 29 October 2026. The site
+states no licence. Its robots.txt content signal allows use as a reference (use=reference) and forbids AI training;
+this repository is a reference copy and is not used to train models.
+
+Changes made by Lexifina: the text was converted to one Markdown file per article; footnote lines and their markers,
+page numbers and layout control characters were removed; line breaks within a clause were joined. The wording of the
+law was not changed. The Government of Jordan does not endorse this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages and the tools) are dedicated to the
+public domain under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
