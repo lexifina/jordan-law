@@ -14,7 +14,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 
 | Act | Title | Versions | Span |
 | --- | --- | ---: | --- |
-| `constitution` | دستور المملكة الأردنية الهاشمية (Constitution of the Hashemite Kingdom of Jordan) | 1 | 2022-01-31 to 2022-01-31 |
+| `الدستور` | دستور المملكة الأردنية الهاشمية (Constitution of the Hashemite Kingdom of Jordan) | 1 | 2022-01-31 to 2022-01-31 |
 
 The build made 1 commits:
 

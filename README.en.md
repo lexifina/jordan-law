@@ -11,9 +11,9 @@ The law of Jordan as a git history: one file per provision, one commit per versi
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Jordan's national law, which global-law reads at `jordan/national/acts/`.
 
-**What is in it now:** the Constitution of the Hashemite Kingdom of Jordan, Articles 1 to 131 (131 provisions), in one version: the text with its amendments to the Official Gazette of 31 January 2022 (issue 5770), as the Ministry of Foreign Affairs publishes it. No statute, regulation, treaty or court decision is here yet. [`constitution/README.md`](constitution/README.md) lists every article; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
+**What is in it now:** the Constitution of the Hashemite Kingdom of Jordan, Articles 1 to 131 (131 provisions), in one version: the text with its amendments to the Official Gazette of 31 January 2022 (issue 5770), as the Ministry of Foreign Affairs publishes it. No statute, regulation, treaty or court decision is here yet. [`الدستور/README.md`](الدستور/README.md) lists every article; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
 
-Each act is a folder with one file per provision: `constitution/art-001.md` is Article 1 (المادة 1).
+Each act is a folder with one file per provision: `الدستور/art-001.md` is Article 1 (المادة 1).
 
 The text is in Arabic, the official language, as the Ministry prints it. An English translation is not part of this record.
 
@@ -21,10 +21,10 @@ The text is in Arabic, the official language, as the Ministry prints it. An Engl
 
 | Question | Command |
 | --- | --- |
-| Every change to Article 1 of the Constitution | `git log -p --word-diff -- constitution/art-001.md` |
-| Which act wrote each line of Article 1? | `git blame constitution/art-001.md` |
-| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitution ":^constitution/README.md"` |
-| Article 1 as in force on 1 January 2026 | `python tools/on.py 2026-01-01 constitution art-001` |
+| Every change to Article 1 of the Constitution | `git log -p --word-diff -- الدستور/art-001.md` |
+| Which act wrote each line of Article 1? | `git blame الدستور/art-001.md` |
+| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- الدستور ":^الدستور/README.md"` |
+| Article 1 as in force on 1 January 2026 | `python tools/on.py 2026-01-01 الدستور art-001` |
 
 **Outside git**, we also host this record publicly, for free:
 
