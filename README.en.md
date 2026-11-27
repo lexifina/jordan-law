@@ -11,11 +11,11 @@ The law of Jordan as a git history: one file per provision, one commit per versi
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Jordan's national law, which global-law reads at `jordan/national/acts/`.
 
-**What is in it now:** the Constitution of the Hashemite Kingdom of Jordan, Articles 1 to 131 (131 provisions), in one version: the text with its amendments to the Official Gazette of 31 January 2022 (issue 5770), as the Ministry of Foreign Affairs publishes it. No statute, regulation, treaty or court decision is here yet. [`الدستور/README.md`](الدستور/README.md) lists every article; [`REPRODUCE.md`](REPRODUCE.md) says how the files were made.
+**What is in it now:** the Constitution (131 articles) and 3,584 other texts: 918 laws (1923-2026), 2,103 regulations, 479 instructions and 84 agreements, from Internet Archive copies of the Legislation and Opinion Bureau's site and from LawCodex/jo (a secondary copy). The Civil Code, the Penal Code, the procedure codes and all case law are not here yet. [`STRUCTURE.md`](STRUCTURE.md) sets out the folders; [`REPRODUCE.md`](REPRODUCE.md) says how the first files were made.
 
 Each act is a folder with one file per provision: `الدستور/art-001.md` is Article 1 (المادة 1).
 
-The text is in Arabic, the official language, as the Ministry prints it. An English translation is not part of this record.
+The texts are in Arabic, the official language, as their sources print them. An English translation is not part of this record.
 
 ## Questions as git commands
 
